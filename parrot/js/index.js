@@ -275,6 +275,10 @@ let intractiveSoundsCommand = [{
     name: 'Play Interactive Sounds',
     commands: [
         {
+            name: 'shutup',
+            command: 'shutup',
+        },
+        {
             name: 'سلام',
             command: 'play_voice',
             param: 14
