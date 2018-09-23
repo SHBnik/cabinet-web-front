@@ -4,17 +4,11 @@
 ## pulling 
 ```
 cd /var
-```
+mkdir www
+cd www
 
-```
-git init
-``` 
-
-```
-git remote add origin https://github.com/SHBnik/cabinet-web-front.git
-```
-
-```
-git pull origin master
+sudo git init
+sudo git remote add origin https://github.com/SHBnik/cabinet-web-front.git
+sudo git pull origin master
 ```
 
